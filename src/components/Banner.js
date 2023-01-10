@@ -56,10 +56,13 @@ function Banner() {
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-              molestias voluptatum eos, minus magnam minima dolores tempore
-              animi facere dolore praesentium provident exercitationem omnis!
-              Tempora placeat qui perferendis vero modi?
+              I am an experienced developer with a passion for frontend and web3
+              technologies. I have extensive experience building traditional web
+              applications as well as decentralized applications on blockchain.
+              I have worked on multiple different startup projects in web3, and
+              have built a wide variety of web applications and user interfaces.
+              In my free time, I enjoy programming, training in kickboxing, jiu
+              jitsu, and walking my dog!
             </p>
             <button onClick={() => console.log("connect")}>
               Let's Connect <BsArrowRightCircleFill size={25} />
