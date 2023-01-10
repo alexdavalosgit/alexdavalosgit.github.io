@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button, Container, Nav } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
@@ -26,10 +26,12 @@ function NavBar() {
   }, []);
 
   return (
-    <Navbar bg="light" expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="#home">Alex Davalos</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand href="/">Alex Davalos</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <span className="navbar-toggler-icon"></span>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
@@ -61,7 +63,7 @@ function NavBar() {
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
-            <div className="social-icons">
+            <div className="social-icon">
               <a
                 href="https://github.com/alexdavalosgit"
                 rel="noreferrer"
@@ -77,9 +79,9 @@ function NavBar() {
                 <BsLinkedin />
               </a>
             </div>
-            <Button variant="dark" onClick={() => console.log("connect")}>
+            <button onClick={() => console.log("connect")}>
               Let's Connect!
-            </Button>
+            </button>
           </span>
         </Navbar.Collapse>
       </Container>
