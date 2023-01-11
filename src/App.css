@@ -483,6 +483,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
 }
 
+.footer a:hover {
+  opacity: 75%;
+}
+
 @media (max-width: 768px) {
   .hide-sm-btn a {
     display: none;

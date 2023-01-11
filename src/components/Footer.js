@@ -27,6 +27,12 @@ export const Footer = () => {
                 <BsLinkedin />
               </a>
             </div>
+            <a
+              href="https://drive.google.com/file/d/15aEJJRS81aT5EF9SBNy-uVnlof1foagA/view?usp=sharing"
+              target="_blank"
+            >
+              Resume.
+            </a>
             <p className="pt-2">Copyright 2023. All rights reserved.</p>
           </Col>
         </Row>
