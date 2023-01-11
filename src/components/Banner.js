@@ -52,20 +52,23 @@ function Banner() {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {`Hi! I'm Alex `}
-              <br />
-              <span className="wrap">{text}</span>
+              {`Hi! I'm Alex`}{" "}
+              <span
+                className="txt-rotate"
+                dataPeriod="1000"
+                data-rotate='[ "Frontend Developer", "Web3 Developer", "Web Designer" ]'
+              >
+                <span className="wrap">{text}</span>
+              </span>
             </h1>
             <p>
               I am an experienced developer with a passion for frontend and web3
-              technologies. I have extensive experience building traditional web
-              applications as well as decentralized applications on blockchain.
-              I have worked on multiple different startup projects in web3, and
-              have built a wide variety of web applications and user interfaces.
-              In my free time, I enjoy programming, training in kickboxing, jiu
-              jitsu, and walking my dog!
+              technologies. I have worked on multiple different startup projects
+              in web3, and have built a wide variety of web applications and
+              user interfaces. In my free time, I enjoy programming, training in
+              kickboxing, jiu jitsu, and walking my dog!
             </p>
-            <button>
+            <button className="hide-sm-btn">
               <a
                 href="https://www.linkedin.com/in/alex-davalos/"
                 rel="noreferrer"

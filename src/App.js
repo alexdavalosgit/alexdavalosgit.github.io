@@ -4,12 +4,14 @@ import Banner from "./components/Banner";
 import "./App.css";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import { Skills } from "./components/Skills";
 
 function App() {
   return (
     <div className="">
       <NavBar />
       <Banner />
+      <Skills />
       <Projects />
       <Footer />
     </div>

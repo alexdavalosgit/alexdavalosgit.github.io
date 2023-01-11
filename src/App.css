@@ -66,7 +66,7 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #262626;
+  background-color: black;
 }
 
 nav.navbar a.navbar-brand {
@@ -435,10 +435,46 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/************ Skills Css ************/
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+  background-color: #c62e42;
+}
+.skill-bx {
+  background: #faf9f6;
+  color: #c62e42;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.skill h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.skill p {
+  color: gray;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider .item svg {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
 /************ Footer Css ************/
 .footer {
   padding: 50px 0;
-  background-color: #262626;
+  background-color: #c62e42;
 }
 
 .footer h4 {
@@ -447,16 +483,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
 }
 
-.newsletter-bx {
-  background: #ffffff;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
+@media (max-width: 768px) {
+  .hide-sm-btn a {
+    display: none;
+  }
 }
