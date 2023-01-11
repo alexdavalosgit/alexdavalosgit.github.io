@@ -4,7 +4,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <Container>
         <Row className="align-items-center">
           <Col sm={6} className="">

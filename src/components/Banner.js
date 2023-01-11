@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import headerImg from "../assets/header-img.avif";
+import { HashLink } from "react-router-hash-link";
 
 function Banner() {
   const [loopNum, setLoopNum] = useState(0);
@@ -64,8 +65,14 @@ function Banner() {
               In my free time, I enjoy programming, training in kickboxing, jiu
               jitsu, and walking my dog!
             </p>
-            <button onClick={() => console.log("connect")}>
-              Let's Connect <BsArrowRightCircleFill size={25} />
+            <button>
+              <a
+                href="https://www.linkedin.com/in/alex-davalos/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Let's Connect <BsArrowRightCircleFill size={25} />
+              </a>
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
