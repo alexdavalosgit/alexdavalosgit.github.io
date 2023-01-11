@@ -1,11 +1,11 @@
 import React from "react";
-import { Col, Button } from "react-bootstrap";
+import { Col, Button, Image } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl, demo, type }) => {
   return (
-    <Col sm={6} md={4}>
+    <Col sm={6} lg={4}>
       <div className="proj-imgbx">
-        <img src={imgUrl} alt="project visual" />
+        <Image fluid src={imgUrl} alt="project visual" />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{type}</span>

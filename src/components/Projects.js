@@ -59,15 +59,14 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
-            <h2>Projects</h2>
+            <h2>More about me</h2>
             <p>
-              Here are some of the projects I have worked on. I'm currently
-              focused on working on improving the Block So web application to
-              attract more users.
+              Here are some things I have been working on. I also work as a
+              freelancer, so please feel free to contact me for any inquiries.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
