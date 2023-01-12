@@ -48,8 +48,8 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>
                 I have extensive experience building traditional web
-                applications as well as decentralized applications on
-                blockchain. Some of my skills are as follows:
+                applications as well as decentralized applications on EVM-based
+                chains. Some of my skills are as follows:
               </p>
               <Carousel
                 responsive={responsive}
