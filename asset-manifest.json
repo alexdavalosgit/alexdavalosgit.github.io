@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alexdavalosgit.github.io/static/css/main.41b47bec.css",
-    "main.js": "/alexdavalosgit.github.io/static/js/main.1a3c4b18.js",
+    "main.js": "/alexdavalosgit.github.io/static/js/main.f1a86b73.js",
     "static/js/787.1ed0c42c.chunk.js": "/alexdavalosgit.github.io/static/js/787.1ed0c42c.chunk.js",
     "static/media/proj-img5.jpg": "/alexdavalosgit.github.io/static/media/proj-img5.4d2ca49ea1a67254564c.jpg",
     "static/media/proj-img3.jpg": "/alexdavalosgit.github.io/static/media/proj-img3.111e2278514a35326449.jpg",
@@ -15,11 +15,11 @@
     "static/media/revicons.woff": "/alexdavalosgit.github.io/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/alexdavalosgit.github.io/index.html",
     "main.41b47bec.css.map": "/alexdavalosgit.github.io/static/css/main.41b47bec.css.map",
-    "main.1a3c4b18.js.map": "/alexdavalosgit.github.io/static/js/main.1a3c4b18.js.map",
+    "main.f1a86b73.js.map": "/alexdavalosgit.github.io/static/js/main.f1a86b73.js.map",
     "787.1ed0c42c.chunk.js.map": "/alexdavalosgit.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41b47bec.css",
-    "static/js/main.1a3c4b18.js"
+    "static/js/main.f1a86b73.js"
   ]
 }
