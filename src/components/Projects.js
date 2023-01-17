@@ -36,6 +36,7 @@ export const Projects = () => {
     {
       title: "Navy Yard Salon",
       type: "Development & Design",
+      demo: "https://navynails.vercel.app/",
       description:
         "A professional website for a beauty salon business located in Washington D.C, built with React.js and Bootstrap.",
       imgUrl: projImg4,
