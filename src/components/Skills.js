@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import {
   SiJavascript,
-  SiRuby,
+  SiPython,
   SiExpress,
   SiMongodb,
   SiSolidity,
@@ -47,9 +47,12 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                I have extensive experience building traditional web
-                applications as well as decentralized applications on EVM-based
-                chains. Some of my skills are as follows:
+                I bring a wealth of experience to the table, having built both
+                traditional web applications and decentralized applications on
+                EVM-based chains. My skills span across the entire web
+                development stack, from designing scalable architectures to
+                crafting intuitive user interfaces. Some of my specific skills
+                include:
               </p>
               <Carousel
                 responsive={responsive}
@@ -81,8 +84,8 @@ export const Skills = () => {
                   <h5>Bootstrap</h5>
                 </div>
                 <div className="item">
-                  <SiRuby size={70} />
-                  <h5>Ruby</h5>
+                  <SiPython size={70} />
+                  <h5>Python</h5>
                 </div>
                 <div className="item">
                   <SiExpress size={70} />

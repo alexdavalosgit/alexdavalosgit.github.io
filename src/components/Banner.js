@@ -55,18 +55,20 @@ function Banner() {
               {`Hi! I'm Alex`}{" "}
               <span
                 className="txt-rotate"
-                dataPeriod="1000"
+                data-period="1000"
                 data-rotate='[ "Frontend Developer", "Web3 Developer", "Web Designer" ]'
               >
                 <span className="wrap">{text}</span>
               </span>
             </h1>
             <p>
-              I am an experienced developer with a passion for frontend and web3
-              technologies. I have worked on multiple different startup projects
-              in web3, and have built a wide variety of web applications and
-              user interfaces. In my free time, I enjoy programming, training in
-              kickboxing, jiu jitsu, and walking my dog!
+              I'm an experienced software developer who's passionate about
+              building engaging user interfaces and exploring the potential of
+              blockchain technology. I've worked on various startup projects in
+              the web3 space, and enjoy learning new skills to stay up-to-date
+              with the latest advancements. In my free time, I love training in
+              kickboxing and jiu jitsu, and taking long walks with my dog. Let's
+              build something great together!
             </p>
             <button className="hide-sm-btn">
               <a

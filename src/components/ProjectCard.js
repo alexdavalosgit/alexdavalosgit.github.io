@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Button, Image } from "react-bootstrap";
+import { Col, Button, Image, OverlayTrigger, Popover } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl, demo, type }) => {
   return (
@@ -20,6 +20,30 @@ export const ProjectCard = ({ title, description, imgUrl, demo, type }) => {
             >
               Demo
             </Button>
+          ) : (
+            ""
+          )}
+          {description ? (
+            <OverlayTrigger
+              trigger="click"
+              rootClose="true"
+              placement="auto"
+              overlay={
+                <Popover id="popover-basic">
+                  <Popover.Header
+                    as="h3"
+                    style={{ "background-color": "#c62e42" }}
+                  >
+                    More About: {title}
+                  </Popover.Header>
+                  <Popover.Body>{description}</Popover.Body>
+                </Popover>
+              }
+            >
+              <Button variant="light" size="sm" className="mt-2 mx-1">
+                About
+              </Button>
+            </OverlayTrigger>
           ) : (
             ""
           )}
